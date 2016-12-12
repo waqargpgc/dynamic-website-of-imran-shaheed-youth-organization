@@ -1,0 +1,78 @@
+@charset "utf-8";/* CSS Document */
+html{
+width:100%;
+height:100%;
+}
+
+section{width:77%;
+float:right;
+}
+aside{
+width:21%;
+float:left;
+text-transform:capitalize;
+}
+aside a{display:block;
+text-decoration:none;
+font-size:2em;
+text-align:center;
+text-shadow:gray 1px 1px 1px;
+color:red;
+font-family:"Gabriola";
+text-transform:capitalize;
+font-weight:600;
+border:1px groove #000;
+border-radius:20px;
+background-color:#FFCCFF;}
+aside a:hover{box-shadow:inset 1px 3px 6px white,
+1px 3px 5px pink,
+1px 3px 7px yellow;
+color:black;
+text-decoration:underline;
+letter-spacing:4px;
+	}
+header{
+text-transform:capitalize;
+line-height:1em;}	
+h1{font-size:2em;
+text-align:center;
+text-shadow:#faa38d 1px 1px 1px;
+color:red;
+font-family:"Gabriola";
+}
+h2{font-size:1.8em;
+color: red;
+text-align:center;
+text-shadow:#faa38d 1px 1px 1px;
+font-family:"Gabriola";
+
+}
+header a{
+text-decoration:none;
+color:#F00;}
+table h2{font-size:1.8em;
+text-align:center;
+text-shadow:#fff 1px 1px 1px;
+}
+	
+table{border:medium 1px #ffccff;
+border-radius:10px;
+font-family:"Gabriola";
+background-color:burlywood;
+text-shadow:#fff 1px 1px 1px;
+box-shadow:inset 0 0 90px #FFFF99;
+}
+
+td,th{
+color:#000;
+font-size:1em;
+font-weight:600;
+border-radius:10px;
+	}
+	
+input{border-radius:10px;
+font-family:"Gabriola";
+font-size:1.1em;
+font-weight:600;
+}
+
